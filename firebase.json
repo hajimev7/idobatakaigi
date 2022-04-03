@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site":"idobatakaigi-with-ham-a67af",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
